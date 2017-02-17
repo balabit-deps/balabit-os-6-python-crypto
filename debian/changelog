@@ -1,3 +1,18 @@
+python-crypto (2.6.1-6ubuntu0.16.04.2) xenial-security; urgency=medium
+
+  * Update CVE-2013-7459: Print a warning, rather than raise an exception.
+    Thanks to Sebastian Ramacher. (Closes: #1665598)
+
+ -- Emily Ratliff <emily.ratliff@canonical.com>  Fri, 17 Feb 2017 09:35:46 -0600
+
+python-crypto (2.6.1-6ubuntu0.16.04.1) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: throw exception when IV used with ECB or CTR
+    - debian/patches/CVE-2013-7459.patch: force exception when IV used ECB/CTR
+    - CVE-2013-7459.patch
+
+ -- Emily Ratliff <emily.ratliff@canonical.com>  Tue, 14 Feb 2017 16:05:02 -0600
+
 python-crypto (2.6.1-6build1) xenial; urgency=medium
 
   * No-change rebuild to drop python3.4 support.
