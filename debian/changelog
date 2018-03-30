@@ -1,3 +1,12 @@
+python-crypto (2.6.1-6ubuntu0.16.04.3) xenial-security; urgency=medium
+
+  * SECURITY UPDATE: weak ElGamal key parameters
+    - debian/patches/CVE-2018-6594.patch: use backported fix from
+      pycryptodome in lib/Crypto/PublicKey/ElGamal.py.
+    - CVE-2018-6594
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Fri, 30 Mar 2018 11:18:44 -0400
+
 python-crypto (2.6.1-6ubuntu0.16.04.2) xenial-security; urgency=medium
 
   * Update CVE-2013-7459: Print a warning, rather than raise an exception.

@@ -11,3 +11,4 @@ deprecated-test-methods.patch
 asn1-decoding.patch
 CVE-2013-7459.patch
 CVE-2013-7459-regression.patch
+CVE-2018-6594.patch
